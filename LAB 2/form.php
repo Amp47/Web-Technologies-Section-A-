@@ -13,7 +13,7 @@
         <input type="radio" id="tsk1" name="tsk" value="5">
         <label for="tsk1">This is Task 1</label><br>
         <input type="radio" id="tsk2" name="tsk" value="5">
-        <label for="age2">This is Task 2</label><br>
+        <label for="task2">This is Task 2</label><br>
         <input type="radio" id="tsk3" name="tsk" value="5">
         <label for="tsk3">This is Task 3</label><br><br>
         <input type="submit" value="Submit"><br><br>
@@ -53,11 +53,35 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") 
         // collect value of input field
         $name = $_REQUEST['fname'];
-        if (empty($name)) {
+        
+    if (empty($name)) {
             echo "Name is empty!";
         } else {
             echo $name;
         }
+
+        $name = $_REQUEST['tsk'];
+    if (empty($name)) {
+        echo "Task is empty";
+        } else {
+        echo $name;
+        }
+
+        $name = $_REQUEST['lab'];
+    if (empty($name)) {
+        echo "Lab is empty";
+        } else {
+        echo $name;
+        }
+ 
+    if(isset($_REQUEST['hobbies'])){
+            echo $_REQUEST['hobbies'];
+            
+        }else{
+            echo "Please select your hobby.";
+        }
+    
+
 
         
  
