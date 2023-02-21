@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAB 1</title>
+    <title>Lab Task WEB TECH [A]</title>
 </head>
 <body>
+    <h1 align="center">LAB TASK 01</h1>
+    <h2>Task details: Make a form using HTML</h2><br><hr>
+
+    <h2 align="center">:::Registration Form:::</h2><hr>
+
+    <form action="action_page.php" method="post">
+        <!-- firstname -->
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" name="firstname" placeholder=" John " required><br><br>
+        <!-- lastname -->
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" name="lastname" placeholder=" Wick " required><br><br>
+        <!-- password -->
+        <label for="pass">Password: </label>
+        <input type="password" id="pass1" name="pass1" maxlength="12" required><br><br>       
+        <!-- email -->
+        <label for="email">Email: </label>
+        <input type="email" id="email1" name="email1" placeholder=" johnwick@something.com " required><br><br> 
+        <!-- Phone/Telephone -->
+        <label for="phone">Telephone / Phone Number: </label>
+        <input type="tel" id="phn1" name="phn1" placeholder=" (+880) 1XXXXXXXXX " required><br><br>         
+        <!-- Date of Birth -->
+        <label for="birthdate">Date Of Birth: </label>
+        <input type="date" id="dob11" name="dob11" placeholder=" 6/6/1944 " required><br><br> 
+
+        <!-- RADIO BUTTONS P.S. make all name attribute same, else radio button won't work -->
+
+        
+        <label for=""title>Your Title: <br></label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr.">
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." name="title" value="PhD."><br><br> 
+
+        <!-- Selection / Dropdown Menu -->
+        <label for="payment">Select Payment Method:</label>
+        <select id="payment" name="payment">
+            <option value="visa"> 1. VISA </option>
+            <option value="mastercard"> 2. MASTERCARD </option>
+            <option value="Paypal"> 3. Paypal </option>
+        </select><br><br> 
+        
+        <!-- CheckBox [] -->
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br><br>
+
+
+
+        <br><br>
+        <!-- button type 1: submit -->
+        <div>
+            <input type="submit"> 
+        </div>
+        <br>
+        <!-- button type 2: reset -->
+        <div>
+        <input type="reset">    
+        </div>
+        <br>
+
+
+    </form>
     
 </body>
 </html>
