@@ -5,8 +5,9 @@ Session: Spring 22-23,
 LAB TASKS will be submitted here.
 
 <h2>LAB 1</h2>
-<img src="" height="50%" width="40%">
-<a href="" >>>>VIEW Source Code</a>
+<img src="https://raw.githubusercontent.com/Amp47/Web-Technologies-Section-A-/main/LAB%201/Screenshot%202023-02-21%20182637.png" height="90%" width="60%">
+<img src="https://raw.githubusercontent.com/Amp47/Web-Technologies-Section-A-/main/LAB%201/Screenshot%202023-02-21%20182723.png" height="80%" width="56%">
+<a href="https://github.com/Amp47/Web-Technologies-Section-A-/blob/main/LAB%201/form.html" >>>>VIEW Source Code</a>
 
 
 <h2>LAB 2</h2>
