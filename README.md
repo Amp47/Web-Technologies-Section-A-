@@ -15,8 +15,9 @@ LAB TASKS will be submitted here.
 <a href="https://github.com/Amp47/Web-Technologies-Section-A-/blob/main/LAB%202/lab2form.php" >>>>VIEW Source Code></a>
 
 <h2>LAB 3</h2>
-<img src="" height="50%" width="40%">
-<a href="" >>>>VIEW Source Code</a>
+<img src="https://github.com/Amp47/Web-Technologies-Section-A-/blob/main/LAB%203%20%5Bthursday%20makeup%2016%20FEB%5D/Login%20page%20Task%203.png" height="80%" width="70%">
+<img src="https://github.com/Amp47/Web-Technologies-Section-A-/blob/main/LAB%203%20%5Bthursday%20makeup%2016%20FEB%5D/Signup%20page%20Task%203.png" height="80%" width="70%">
+<a href="https://github.com/Amp47/Web-Technologies-Section-A-/tree/main/LAB%203%20%5Bthursday%20makeup%2016%20FEB%5D/Submitted%20Task" >>>>VIEW Source Code</a>
 
 <h2>LAB 4</h2>
 <img src="" height="50%" width="40%">
