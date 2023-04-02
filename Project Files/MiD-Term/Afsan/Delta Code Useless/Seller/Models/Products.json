@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Best shoe 1",
+    "description": "This is the best shoe ever",
+    "imgUrl" : "https://media.istockphoto.com/id/1249496770/photo/running-shoes.jpg?s=612x612&w=0&k=20&c=b4MahNlk4LH6H1ksJApfnlQ5ZPM3KGhI5i_yqhGD9c4=",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Best shoe 2",
+    "description": "This is the best shoe ever",
+    "imgUrl" : "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 100
+  },
+  {
+    "id": 3,
+    "title": "Best shoe 3",
+    "description": "This is the best shoe ever",
+    "imgUrl" : "https://images.pexels.com/photos/5584504/pexels-photo-5584504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 100
+  },
+  {
+    "id": 4,
+    "title": "ABC",
+    "description": "This is the Desc",
+    "imgUrl" : "https://images.pexels.com/photos/5584504/pexels-photo-5584504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 69464
+  }
+]

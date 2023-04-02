@@ -1,0 +1,5 @@
+CartHandler.php -> needed
+CheckoutHandler.php -> needed
+SellerLoginHandler.php
+SellerLogoutHandler.php
+SellerRegistrationhandler.php
