@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  let x = document.getElementById("input").value;
+  if (x == "") {
+      document.getElementById("nameErr").innerHTML="Name is required";
+    document.getElementById("input").style.borderColor = "red";
+    return false;
+  }else{
+    document.getElementById("nameErr").innerHTML=x;
+    document.getElementById("input").style.borderColor = "black";
+  }
+}
+</script>
+</head>
+<body>
+
+ 
+
+<form name="myForm" onsubmit="return validateForm()" method="post">
+  Name: <input id="input" type="text" name="fname">
+<input type="submit" value="Submit">
+<br>
+<span id="nameErr"></span>
+</form>
+
+ 
+
+</body>
+</html>
