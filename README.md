@@ -22,3 +22,4 @@ LAB TASKS will be submitted here.
 <h2>LAB 4</h2>
 <img src="" height="50%" width="40%">
 <a href="" >>>>VIEW Source Code</a>
+-----------------END OF MID TERM TASKS [DISPLAY]-----------------
